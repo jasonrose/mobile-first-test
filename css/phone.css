@@ -1,0 +1,23 @@
+header h1:after {
+    content: ' - phone'
+}
+
+/* overrides */
+fieldset label {
+    display: none !important;
+}
+
+input, .pure-button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pure-form-aligned .pure-control-group {
+    margin: 0;
+    padding: 0;
+}
+
+.pure-form-aligned .pure-controls {
+    padding: 0;
+    margin-left: 0;
+}

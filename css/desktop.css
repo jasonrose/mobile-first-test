@@ -1,0 +1,62 @@
+/* overrides */
+header h1:after {
+    content: ' - desktop'
+}
+
+::-webkit-input-placeholder {
+    color: transparent;
+}
+
+::-moz-placeholder {
+    color: transparent;
+}
+
+.pure-form-aligned .pure-controls {
+    margin-left: 11.25em;
+}
+
+.pure-button-link {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header h1 {
+    text-align: left;
+    padding-left: .5em;
+}
+
+footer, #main {
+    width: 40em;
+    margin: auto;
+}
+
+footer {
+    width: 55em;
+    margin-top: 3em;
+    text-align: left;
+}
+
+#main {
+    border: 1px solid #DADADA;
+    border-radius: .5em;
+    margin-top: 5em;
+    padding: 1em;
+    background-color: white;
+}
+
+#main header {
+    display: block;
+}
+
+#main header h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #DADADA;
+}
+
+form {
+    margin-top: 1em;
+}
+
+label {
+    cursor: pointer;
+}

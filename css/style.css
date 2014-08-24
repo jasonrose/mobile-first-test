@@ -1,0 +1,76 @@
+/* mixins */
+.company-blue-background {
+    background-color: #0082C8;
+    color: white;
+}
+
+/* overrides */
+a {
+    text-decoration: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+}
+
+.pure-button-link,
+.pure-button-link:active,
+.pure-button-link:focus,
+.pure-button-link:hover {
+    background: none transparent;
+    border: none;
+    box-shadow: none;
+    color: blue;
+}
+
+.company-blue-background a,
+.company-blue-background a:visited,
+.company-blue-background a:hover,
+.company-blue-background a:active {
+    color: white;
+}
+
+/* app css */
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding: .25em 0;
+}
+
+form {
+    margin-bottom: .75em;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding: .75em;
+}
+
+#main {
+    padding: .75em;
+    background-color: #EBEBEB;
+}
+
+#main header {
+    display: none;
+}
+
+.callout {
+    border: 1px solid black;
+    padding: .625em;
+    border-radius: .5em;
+    margin: .25em 0;
+}
+
+.callout.error {
+    color: white;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}

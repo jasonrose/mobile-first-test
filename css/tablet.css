@@ -1,0 +1,55 @@
+/* overrides */
+header h1:after {
+    content: ' - tablet'
+}
+
+::-webkit-input-placeholder {
+    color: transparent;
+}
+
+::-moz-placeholder {
+    color: transparent;
+}
+
+.pure-form-aligned .pure-controls {
+    margin-left: 11.25em;
+}
+
+.pure-button-link {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header h1 {
+    text-align: left;
+    padding-left: .5em;
+}
+
+footer {
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: left;
+}
+
+#main {
+    border: 1px solid #DADADA;
+    border-radius: .5em;
+    padding: 1em;
+    margin: 5em 5em 2em;
+    background-color: white;
+}
+
+#main header {
+    display: block;
+}
+
+#main header h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #DADADA;
+}
+
+form {
+    margin-top: 1em;
+}

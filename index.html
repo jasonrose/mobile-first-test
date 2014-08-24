@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/base-min.css"/>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css"/>
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <link rel="stylesheet" href="css/phone.css" media="screen and (max-width: 40em)" />
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 40.063em) and (max-width: 64em)" />
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 64.063em)" />
+</head>
+<body>
+    <header class="company-blue-background">
+        <h1><a href="index.html">Company</a></h1>
+    </header>
+    <section id="main">
+        <header>
+            <h2>Customer Login</h2>
+        </header>
+        <div class="callout error">Invalid username or password.<br/>NOTE: password are case-sensitive.</div>
+        <form action="#TODO-loginaction" method="post" class="pure-form-aligned">
+            <fieldset class="pure-group">
+                <div class="pure-control-group">
+                    <label for="username">Username:</label>
+                    <input id="username" placeholder="Username:" autofocus="on"/>
+                </div>
+                <div class="pure-control-group">
+                    <label for="password">Password:</label>
+                    <input id="password" type="password" placeholder="Password:"/>
+                </div>
+                <div class="pure-controls">
+                    <button type="submit" class="pure-button pure-button-primary">login</button>
+                </div>
+                <div class="pure-controls">
+                    <a href="forgot-password.html" class="pure-button pure-button-link">Forgot password?</a>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        &copy;2003-2014 - Company, Inc., All Rights Reserved
+    </footer>
+</body>
+</html>
